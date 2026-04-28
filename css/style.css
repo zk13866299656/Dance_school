@@ -1,0 +1,40 @@
+/* === CSS Variables === */
+:root {
+  --bg-main: #FAF8F5;
+  --bg-alt: #F0EDE8;
+  --text-primary: #2C2416;
+  --text-secondary: #6B6570;
+  --accent: #C43A31;
+  --accent-blue: #3B5998;
+  --font-serif: 'Noto Serif SC', STSong, Songti SC, serif;
+  --font-sans: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+}
+
+/* === Reset === */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--text-primary);
+  background: var(--bg-main);
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
